@@ -1,0 +1,20 @@
+<ul>
+    @foreach (var Produtos in ViewBag.Produtos)
+    {
+        <li>@Produtos</li>
+    }
+</ul>
+
+<ul>
+    @foreach (var Precos in ViewBag.Preco)
+    {
+        <li>@Precos</li>
+    }
+</ul>
+
+
+<h2>Total de todos os produtos</h2>
+ @ViewBag.total
+
+
+
